@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore> 
+  <book> 
+    <title lang="en">Harry Potter</title>  
+    <author>J K. Rowling</author>  
+    <date>2005-09-09</date>  
+    <price>29.99</price> 
+  </book>  
+  <book> 
+    <title lang="ch">西游记</title>  
+    <author>吴承恩</author>  
+    <date>1899-09-01</date>  
+    <price>68.99</price> 
+  </book>  
+  <book> 
+    <title lang="ch">围城</title>  
+    <author>钱钟书</author>  
+    <date>2005-08-07</date>  
+    <price>19.99</price> 
+  </book>  
+  <book> 
+    <title lang="ch">边城</title>  
+    <author>沈从文</author>  
+    <date>2001-04-09</date>  
+    <price>12.99</price> 
+  </book> 
+</bookstore>

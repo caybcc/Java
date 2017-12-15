@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<articles>
+	<article category="xml">
+		<title>XML概述</title>
+		<author>janet</author>
+		<email>janetvsfei@yahoo.com.cn</email>
+		<date>2008-08-12</date>
+	</article>
+	<article category="java">
+		<title>Java基本入门</title>
+		<author>John</author>
+		<email>John@gmail.com</email>
+		<date>2007-08-02</date>
+	</article>
+</articles>

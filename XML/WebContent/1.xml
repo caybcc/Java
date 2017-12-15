@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE note [
+  <!ENTITY name "George">
+  <!ELEMENT note (to,from,heading,body)>
+  <!ELEMENT to (#PCDATA)>
+  <!ELEMENT from (#PCDATA)>
+  <!ELEMENT heading (#PCDATA)>
+  <!ELEMENT body (#PCDATA)>
+]>
+<note>
+	<to>&name;</to>
+	<from>John</from>
+	<heading>Reminder</heading>
+	<body>Don't forget the meeting!</body>
+</note>

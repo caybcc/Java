@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookself> 
+  <book> 
+    <bookname>Java从入门到放弃</bookname>  
+    <author>李某某</author> 
+  </book>  
+  <book> 
+    <bookname type="dba">MySQL从删库到跑路</bookname>  
+    <author>李默</author>  
+    <price>￥65.9</price> 
+  </book> 
+</bookself>

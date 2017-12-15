@@ -1,0 +1,6 @@
+<!ENTITY bn "JavaWeb">
+<!ELEMENT bookself (book+)>
+<!ELEMENT book (bookname,author,price)>
+<!ELEMENT bookname (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
