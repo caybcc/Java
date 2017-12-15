@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="../bootstrap-3.3.7/js/jquery.js"></script>
+		<script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<title>Column Order</title>
+	</head>
+	<body>
+	<!-- 
+	  Bootstrap 网格系统另一个完美的特性，就是您可以很容易地以一种顺序编写列，然后以另一种顺序显示列。
+	     您可以很轻易地改变带有 .col-md-push-* 和 .col-md-pull-* 类的内置网格列的顺序，其中 * 范围是从 1 到 11。
+                 在下面的实例中，我们有两列布局，左列很窄，作为侧边栏。我们将使用 .col-md-push-* 和 .col-md-pull-* 类来互换这两列的顺序。
+	 -->
+	 <div class="container">
+	 	<h1>Hello!</h1>
+	 	<div class="row">
+	 		<p>排序前</p>
+	 		<div class="col-md-4" style="border:1px solid black;">Left</div>
+	 		<div class="col-md-8" style="border:1px solid black;">Right</div>
+	 	</div>
+	 	<div class="row">
+	 		<p>排序后</p>
+	 		<div class="col-md-4 col-md-push-8" style="border:1px solid black;">Left</div>
+	 		<div class="col-md-8 col-md-pull-4" style="border:1px solid black;">Right</div>
+	 	</div>
+	 </div>
+	</body>
+</html>
